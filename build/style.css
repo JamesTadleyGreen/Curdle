@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+}
+
+#game-board {
+    display: grid;
+    place-content: center;
+}
+
+.cell {
+    border: 2px solid white;
+    background: lightgray;
+    border-radius: 20%;
+    height: 5vh;
+    width: 5vh;
+    display: grid;
+    overflow: auto;
+}
+
+.cell:hover {
+    background: black;
+}
+
+.cell-row {
+    display: flex;
+}
+
+#color-pallette {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.color-row {
+    display: flex;
+    width: 100%;
+    flex-grow: 4;
+    justify-content: space-evenly;
+}
+
+#answer-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vh;
+    height: 5vh;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 5vh;
+    text-align: center;
+    text-transform: uppercase;
+}
