@@ -12,9 +12,5 @@ def generate_array(x, y):
     return {"color_array": array}
 
 
-with open("./build/color_array.json", "w") as f:
-    f.write(json.dumps(generate_array(10, 10)))
-
-
-name = 'asd'
-print(f'hello {name}')
+with open("./src/color_array.json", "w") as f:
+    f.write(json.dumps(generate_array(15, 15)))

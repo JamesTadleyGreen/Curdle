@@ -7,20 +7,18 @@ let current_color = initial_json.color_array[0]
 function initBoard(columnCount, rowCount) {
     const board = document.getElementById("game-board");
 
-    board.style.gridTemplateColumns = '50px '.repeat(columnCount)
-    board.style.gridTemplateRows = '50px '.repeat(rowCount)
+    // board.style.gridTemplateColumns = '10% '.repeat(columnCount)
+    board.style.gridTemplateRows = '6.6666666% '.repeat(rowCount)
 
     for (let i = 0; i < columnCount; i++) {
         for (let j = 0; j < rowCount; j++) {
             const box = document.createElement("div")
             box.className = "cell cell-box"
-            console.log(i)
-            console.log(j)
             box.style.gridRow = i + 1
             box.style.gridColumn = j + 1
-            box.onclick = () => updateCellColor(box, i, j)
-            box.onmouseover = () => box.style.background = current_color
-            box.onmouseleave = () => box.style.background = null
+            box.onmousedown = () => updateCellColor(box, i, j)
+            box.onmouseover = () => { if (box.style.borderColor === "") { box.style.background = current_color } }
+            box.onmouseleave = () => { if (box.style.borderColor === "") { box.style.background = null } }
             board.appendChild(box)
         }
     }
@@ -49,9 +47,11 @@ function updateCellColor(self, x, y) {
     console.log(correct_color)
     if (correct_color == current_color) {
         self.style.background = current_color
+        self.style.borderColor = current_color
+        self.style.borderRadius = 0
     }
 }
 
 function updateSelectedColor(self) {
-    current_color = self.style.background
+    current_color = self.style.background;
 }

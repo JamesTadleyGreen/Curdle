@@ -1,14 +1,1 @@
-{
-    "color_array": [
-        ["red", "black", "black", "black", "black", "blue", "orange", "orange", "blue", "black"],
-        ["green", "green", "blue", "blue", "orange", "orange", "blue", "black", "blue", "orange"],
-        ["red", "green", "black", "red", "black", "blue", "blue", "blue", "red", "orange"],
-        ["green", "blue", "green", "blue", "orange", "green", "green", "red", "red", "orange"],
-        ["red", "orange", "black", "black", "blue", "black", "blue", "black", "green", "red"],
-        ["red", "black", "blue", "green", "blue", "orange", "blue", "blue", "red", "blue"],
-        ["red", "green", "green", "red", "red", "orange", "red", "orange", "black", "blue"],
-        ["green", "black", "black", "green", "blue", "orange", "blue", "green", "green", "green"],
-        ["orange", "black", "blue", "blue", "black", "green", "green", "blue", "blue", "red"],
-        ["blue", "blue", "green", "red", "red", "blue", "orange", "blue", "blue", "red"]
-    ]
-}
+{"color_array": [["blue", "red", "black", "orange", "green", "blue", "orange", "black", "orange", "blue", "red", "green", "red", "green", "red"], ["black", "orange", "black", "blue", "blue", "black", "blue", "black", "green", "orange", "black", "green", "black", "orange", "red"], ["orange", "red", "red", "green", "red", "black", "green", "orange", "blue", "blue", "red", "black", "green", "black", "blue"], ["green", "green", "orange", "black", "red", "orange", "blue", "red", "orange", "green", "green", "blue", "black", "red", "blue"], ["black", "green", "red", "red", "black", "black", "red", "blue", "black", "black", "green", "black", "blue", "green", "green"], ["green", "green", "orange", "orange", "orange", "black", "green", "blue", "black", "black", "black", "black", "orange", "red", "orange"], ["black", "green", "red", "blue", "blue", "red", "red", "black", "green", "orange", "black", "red", "orange", "orange", "blue"], ["red", "black", "red", "green", "green", "red", "red", "red", "green", "orange", "green", "red", "green", "red", "orange"], ["blue", "orange", "red", "green", "red", "green", "green", "orange", "black", "blue", "green", "red", "black", "black", "orange"], ["green", "blue", "red", "red", "green", "blue", "blue", "orange", "orange", "black", "orange", "red", "blue", "black", "black"], ["orange", "green", "black", "green", "green", "black", "blue", "orange", "orange", "blue", "red", "orange", "blue", "green", "black"], ["black", "black", "black", "green", "red", "red", "blue", "red", "green", "blue", "blue", "green", "orange", "red", "red"], ["green", "blue", "orange", "red", "blue", "green", "black", "red", "red", "green", "red", "green", "black", "green", "black"], ["red", "black", "black", "orange", "red", "blue", "orange", "red", "green", "green", "black", "red", "black", "black", "orange"], ["green", "orange", "blue", "orange", "green", "blue", "green", "blue", "red", "black", "black", "blue", "blue", "red", "black"]]}
