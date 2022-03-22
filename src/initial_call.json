@@ -1,1 +1,11 @@
-{ "color_array": ["blue", "red", "green", "orange", "black"], "width": 10, "height": 10, "number_of_answer_letters": 7 }
+{
+    "color_array": [
+        [255, 255, 255],
+        [100, 100, 100],
+        [255, 0, 0],
+        [0, 0, 255]
+    ],
+    "width": 10,
+    "height": 10,
+    "number_of_answer_letters": "7"
+}
